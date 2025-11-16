@@ -1,0 +1,5 @@
+config SHIELD_TEMPEST_LEFT
+    def_bool $(shields_list_contains,tempest_left)
+
+config SHIELD_TEMPEST_RIGHT
+    def_bool $(shields_list_contains,tempest_right)
